@@ -12,7 +12,8 @@
       "extensions": [
         "ms-python.python",
         "ms-python.debugpy"
-      ]
+      ],
+      "settings": { "locale": "en" }
     }
   },
   "postCreateCommand": ".devcontainer/postCreate.sh"
