@@ -7,16 +7,15 @@
       "version": "3.10"
     }
   },
-  "settings": {
-    "locale": "en"
-  },
   "customizations": {
     "vscode": {
       "extensions": [
         "ms-python.python",
         "ms-python.debugpy"
       ],
-      "settings": { "locale": "en" }
+      "settings": {
+         "locale": "en" 
+        }
     }
   },
   "postCreateCommand": ".devcontainer/postCreate.sh"
