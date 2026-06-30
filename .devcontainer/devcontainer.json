@@ -8,13 +8,18 @@
     }
   },
   "customizations": {
+    "codespaces": {
+      "settings": {
+        "locale": "en-US"
+      }
+    },
     "vscode": {
       "extensions": [
         "ms-python.python",
         "ms-python.debugpy"
       ],
       "settings": {
-         "locale": "en" 
+         "locale": "en-en" 
         }
     }
   },
